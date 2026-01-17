@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Farag - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AF</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title animate-fade-in">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Ahmed Farag</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in-delay">Software Engineer & Backend Developer</p>
+                <p class="hero-description animate-fade-in-delay-2">
+                    Passionate about building scalable, secure systems using clean code and automated testing.
+                </p>
+                <div class="hero-buttons animate-fade-in-delay-3">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="hero-social animate-fade-in-delay-4">
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:ahmed.u.farag@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <h3>Summary</h3>
+                    <p>
+                        Computer Engineering student with hands-on experience in backend systems development, 
+                        CI/CD pipelines, and cloud technologies. Automated deployment processes using Azure DevOps 
+                        and improved system performance by 25% through concurrent programming. I am passionate 
+                        about building scalable, secure systems using clean code and automated testing. Seeking 
+                        a Software Engineer Internship to apply my technical skills in a collaborative engineering environment.
+                    </p>
+                </div>
+                <div class="about-stats animate-on-scroll">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3500">0</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="25">0</div>
+                        <div class="stat-label">% Performance Improved</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="30">0</div>
+                        <div class="stat-label">% Time Reduced</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Education</h2>
+            <div class="timeline animate-on-scroll">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree, Computer and Communications Engineering</h3>
+                        <h4>Mansoura National University</h4>
+                        <span class="timeline-date">September 2024 – Present</span>
+                        <p><strong>GPA:</strong> 3.37/4.00</p>
+                        <div class="timeline-details">
+                            <p><strong>Key Courses:</strong></p>
+                            <ul>
+                                <li>OOP, Mathematics, Software Engineering</li>
+                                <li>Operating Systems, Data Structures & Algorithms</li>
+                                <li>Database, Computer Networks, Logic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Freelance Backend Developer</h3>
+                        <span class="experience-type">Remote</span>
+                    </div>
+                    <span class="experience-date">November 2024 – Present</span>
+                    <ul class="experience-list">
+                        <li>Developed RESTful microservices for client projects using Spring Boot and Docker</li>
+                        <li>Integrated third-party APIs and implemented authentication using JWT</li>
+                        <li>Deployed services on Azure App Services with automated CI/CD workflows</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-type">RWA Inc</span>
+                    </div>
+                    <span class="experience-date">August 2025 – January 2026</span>
+                    <ul class="experience-list">
+                        <li>Implemented CI/CD pipelines using Git and Azure DevOps</li>
+                        <li>Developed unit tests to improve backend service reliability</li>
+                        <li>Applied advanced data structures and algorithms to solve complex problems</li>
+                        <li>Collaborated with cybersecurity teams to enhance database security</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Cybersecurity Intern</h3>
+                        <span class="experience-type">The British University in Egypt</span>
+                    </div>
+                    <span class="experience-date">August 2025 – September 2025</span>
+                    <ul class="experience-list">
+                        <li>Analyzed cyber threats and implemented response strategies using advanced tools</li>
+                        <li>Conducted penetration testing and vulnerability assessments in simulated real-world scenarios</li>
+                        <li>Secured networks and information systems through hands-on monitoring and threat detection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Order and Notification Management System</h3>
+                    <p>Designed and implemented backend order and notification management system using Java Spring Boot with optimized RESTful endpoints and SOLID principles.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Students Affairs Website</h3>
+                    <p>Developed search functionality with efficient filtering, backend services using Python Django, and integrated React.js front-end with 85% test coverage.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">pytest</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category animate-on-scroll">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">C#</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">HTML/CSS</div>
+                        <div class="skill-item">C</div>
+                    </div>
+                </div>
+
+                <div class="skills-category animate-on-scroll">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Spring Boot</div>
+                        <div class="skill-item">Django</div>
+                        <div class="skill-item">React.js</div>
+                        <div class="skill-item">.NET Core</div>
+                    </div>
+                </div>
+
+                <div class="skills-category animate-on-scroll">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Azure DevOps</div>
+                        <div class="skill-item">Azure AKS</div>
+                        <div class="skill-item">Azure App Services</div>
+                        <div class="skill-item">Azure Blob Storage</div>
+                        <div class="skill-item">Docker</div>
+                        <div class="skill-item">Kubernetes</div>
+                        <div class="skill-item">CI/CD</div>
+                        <div class="skill-item">Git & GitHub</div>
+                    </div>
+                </div>
+
+                <div class="skills-category animate-on-scroll">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">SQLite</div>
+                        <div class="skill-item">Redis</div>
+                    </div>
+                </div>
+
+                <div class="skills-category animate-on-scroll">
+                    <h3><i class="fas fa-tools"></i> Testing & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">JUnit</div>
+                        <div class="skill-item">pytest</div>
+                        <div class="skill-item">GitHub Actions</div>
+                        <div class="skill-item">Postman</div>
+                        <div class="skill-item">Azure Monitor</div>
+                        <div class="skill-item">Linux</div>
+                    </div>
+                </div>
+
+                <div class="skills-category animate-on-scroll">
+                    <h3><i class="fas fa-lightbulb"></i> Concepts</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">OOP</div>
+                        <div class="skill-item">Data Structures & Algorithms</div>
+                        <div class="skill-item">Design Patterns</div>
+                        <div class="skill-item">Microservices</div>
+                        <div class="skill-item">REST APIs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Achievements & Awards</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>3500+ Problems Solved</h3>
+                    <p>Solved algorithm and data structure problems across competitive platforms</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>25% Performance Improvement</h3>
+                    <p>Improved backend system performance using concurrent programming</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>30% Time Reduction</h3>
+                    <p>Reduced task completion time through workflow optimization</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Reduced Cloud Costs</h3>
+                    <p>Contributed to scalable systems with optimized cloud resource usage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+201158025442">+20 1158025442</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:ahmed.u.farag@gmail.com">ahmed.u.farag@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com" target="_blank">LinkedIn Profile</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com" target="_blank">GitHub Profile</a>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <h4>Languages</h4>
+                        <div class="language-tags">
+                            <span class="language-tag">Arabic (Native)</span>
+                            <span class="language-tag">English (Fluent)</span>
+                            <span class="language-tag">German (B1)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container animate-on-scroll">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ahmed Farag. All rights reserved.</p>
+            <p class="footer-note">References, project demos, and GitHub portfolio available upon request.</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
