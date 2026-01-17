@@ -1,3 +1,4 @@
+// Smooth scroll and navigation
 document.addEventListener('DOMContentLoaded', () => {
     initializeNavigation();
     initializeScrollAnimations();
